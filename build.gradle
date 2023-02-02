@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'cn.enaium.cafully'
+version '1.0.0'
+
+jar {
+    manifest.attributes(
+            'Manifest-Version': 1.0,
+            'Main-Class': 'cn.enaium.cafully.example.Example'
+    )
+}
+
+sourceCompatibility = targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'cn.enaium.cafully:cafully-api:1.0.0'
+}
