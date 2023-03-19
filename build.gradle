@@ -19,5 +19,5 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'cn.enaium.cafully:cafully-api:1.0.0'
+    compileOnly 'cn.enaium.cafully:cafully-api:1.1.1'
 }
