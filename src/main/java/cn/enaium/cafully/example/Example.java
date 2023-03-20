@@ -7,7 +7,7 @@ import cn.enaium.cafully.plugin.helper.IHelper;
 /**
  * @author Enaium
  */
-@Plugin(unique = "example", name = "Example Plugin", version = "1.0.0", api = ">=1.0.0")
+@Plugin(unique = "example", name = "Example Plugin", version = "1.0.0", api = ">=1.1.1")
 public class Example implements IInitializer {
     @Override
     public void initialize(IHelper plugin) throws Throwable {
